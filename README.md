@@ -18,7 +18,9 @@ Final direction for the UI design :
 
 <img width="1536" height="1024" alt="ChatGPT Image 18 juin 2026, 16_52_17" src="https://github.com/user-attachments/assets/a64adc37-2413-4eb9-8d57-166612c19405" />
 
+Notifications/alerts regarding plant conditions :
 
+<img width="1248" height="848" alt="Gemini_Generated_Image_gsv7qagsv7qagsv7" src="https://github.com/user-attachments/assets/a1727da6-173a-4e66-a5f7-8a45ba94e629" />
 
 ## ✨ Features
 
@@ -36,6 +38,7 @@ Final direction for the UI design :
 
 ## 🚧 Roadmap
 
+- [ ] Status notifications — visual alerts when water/fertilizer runs low or plant is ready to harvest
 - [ ] JS integration — dynamic values from game data
 - [ ] Lua bridge — FiveM client-side script
 - [ ] Animations on gauge updates
