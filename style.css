@@ -1,0 +1,212 @@
+            /*hud panel*/
+            .hud-panel {
+                background-color: rgba(22, 24, 27, 0.66);
+                backdrop-filter: blur(14px);
+                opacity: 1;
+                width: 270px;
+                color: white;
+                border-radius: 18px;
+                border: 1px solid rgba(255, 255, 255, 0.14);
+                padding: 25px;
+                height: 230px;
+                box-shadow: 0 12px 40px rgba(0,0,0,0.45);
+            }
+            body {
+                background-image: url('labo.jpg');
+                background-size: cover;
+
+            }
+
+            .header {
+                font-family: "Patrick Hand", monospace;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+
+            }
+
+            .identity {
+                margin-top: -20px;
+
+            }
+            .text-plant {
+                font-size: 18px;
+                font-weight: bold;
+
+            }
+
+            .variety {
+                font-size: 12px;
+                font-family: "Space Mono", monospace;
+                margin-top: -20px;
+                color: rgba(255,255,255,0.45);
+
+            }
+
+            .quality {
+                font-family: "Space Mono", monospace;
+                background-color: rgba(100, 232, 111, 0.18);
+                border: 1px solid #64E86F;
+                padding: 4px 13px;
+                border-radius: 7px;
+                font-weight: bold;
+                color: #64E86F;
+                font-size: 13px;
+
+
+            }
+
+            .water{
+                display: flex;
+                font-family: "Patrick Hand", monospace;               
+                align-items: center;
+                justify-content: space-between;
+                margin-top: -17px;
+                color: rgba(255,255,255,0.55);
+                font-size: 17px;
+            }
+
+            .water-gauge {
+                width: 115px;
+                height: 8px;
+                border-radius: 10px;
+                background-color: grey;
+
+            }
+
+            .gauge-blue {
+                width: 64%;
+                height: 8px;
+                border-radius: 10px;
+                background-color: #53B0DE;
+            }
+
+            .fertiliser {
+                display: flex;
+                font-family: "Patrick Hand", monospace; 
+                justify-content: space-between;
+                align-items: center;
+                margin-top: -25px;
+                color: rgba(255,255,255,0.55);
+                font-size: 17px;
+
+            }
+
+            .fertilizer-gauge {
+                width: 115px;
+                height: 8px;
+                border-radius: 10px;
+                background-color: grey;
+            }
+
+            .gauge-orange {
+                width: 72%;
+                height: 8px;
+                border-radius: 10px;
+                background-color: #D99E4D;               
+            }
+
+            .growth {
+                display: flex;
+                font-family: "Patrick Hand", monospace; 
+                justify-content: space-between;
+                align-items: center;
+                margin-top: -25px;
+                color: rgba(255,255,255,0.55);
+                font-size: 17px;
+
+            }
+
+            .growth-gauge {
+                width: 115px;
+                height: 8px;
+                border-radius: 10px;
+                background-color: grey;
+            }
+
+            .gauge-green {
+                width: 48%;
+                height: 8px;
+                border-radius: 10px;
+                background-color: #64E86F;                
+            }
+
+            .label {
+                width: 75px;
+
+            }
+
+            .percent{
+                text-align: right;
+                font-family: "Space Mono", monospace;
+                color: rgba(255,255,255,0.85);
+                font-size: 14px;
+
+            }
+
+            .separate {
+                width: 310px;
+                height: 1px;
+                background-color: white;
+                justify-content: center;
+                margin-left: -20px;
+                margin-right: 20px;
+                opacity: 0.35;
+
+
+            }
+
+            .harvest {
+                display: flex;
+                font-family: "Patrick Hand", monospace;
+                justify-content: space-between;
+                align-items: center;
+                color: rgba(255,255,255,0.55);
+            }
+
+            .counter {
+                padding-top: 10px;
+                font-family: "Space Mono", monospace;
+                font-size: 18px;
+                color: #FFFFFF;
+
+            }
+            .label-counter{
+                padding-top: 10px;
+            }
+
+            .key {
+                display: flex;
+                align-items: center;
+
+            }
+
+            .e-key{
+                border: 1px solid white;
+                padding: 2px 9px;
+                border-radius: 7px;
+                opacity: 0.7;
+                font-family: "Space Mono", monospace;
+            }
+
+            .label-water {
+                margin-left: 5px;
+                margin-right: 20px;
+                font-size: 15px;
+                color: rgba(255,255,255,0.7);
+                font-family: "Patrick Hand", monospace;
+            }
+
+            .f-key{
+                border: 1px solid white;
+                border-radius: 7px;
+                padding: 2px 9px;
+                opacity: 0.7;
+                font-family: "Space Mono", monospace;
+            }
+            .label-fertilizer{
+                margin-left: 5px;
+                font-size: 15px;
+                color: rgba(255,255,255,0.7);
+                font-family: "Patrick Hand", monospace;
+            }
